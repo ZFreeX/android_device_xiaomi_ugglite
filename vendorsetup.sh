@@ -1,3 +1,3 @@
-add_lunch_combo bootleg_ugglite-eng
-add_lunch_combo bootleg_ugglite-user
-add_lunch_combo bootleg_ugglite-userdebug
+add_lunch_combo viper_ugglite-eng
+add_lunch_combo viper_ugglite-user
+add_lunch_combo viper_ugglite-userdebug

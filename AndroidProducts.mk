@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_ugglite.mk
+    $(LOCAL_DIR)/viper_ugglite.mk
