@@ -20,8 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
-# Inherit some common Lineage stuff
+# Inherit some common stuff
 $(call inherit-product, vendor/viper/config/common_full_phone.mk)
+
+# Inherit some viper stuffs
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_DENSITY := xhdpi
+
+
 
 # Inherit from ugglite device
 $(call inherit-product, device/xiaomi/ugglite/device.mk)
